@@ -1,0 +1,15 @@
+[package]
+name = "calamus"
+version = "0.1.0"
+entrypoint = "calamus.typ"
+authors = ["Jozef Steinhübl <https://github.com/xhyrom>"]
+repository = "https://github.com/gksm-labs/ordinis"
+license = "MIT"
+description = "A typst template for SOČ (stredoškolská odborná činnosť) theses"
+categories = ["thesis"]
+exclude = ["demo-*.png", "*.sh"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "thumbnail.png"
